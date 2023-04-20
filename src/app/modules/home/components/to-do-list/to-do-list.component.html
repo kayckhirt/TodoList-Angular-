@@ -4,7 +4,7 @@
     <input type="checkbox"[(ngModel)]="item.checked"/>
     <input type="text" (keyup)="validationInput(item.task, i)" [(ngModel)]="item.task" [ngClass]="{'checked': item.checked}"/>
     <button (click)="deleteItemTaskList(i)">
-      <img src="assets/trash.svg" alt="imagem de um bloco de notas">
+      <img src="assets/trash.svg" alt="imagem de uma lista">
     </button>
   </li>
 </ul>
