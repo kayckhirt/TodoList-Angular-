@@ -1,10 +1,10 @@
 @import './dist/scss/variables.scss';
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Courgette';
+  font-family: 'Bad Script';
   font-weight: 400;
 }
 
@@ -24,8 +24,13 @@ button{
   cursor: pointer;
 }
 
-
 .container{
   width: 370px;
   margin: 50px auto;
+}
+@media (min-width: 1280px) {
+  .container{
+    width: 680px;
+    margin: 50px auto;
+  }
 }
